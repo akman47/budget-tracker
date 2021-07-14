@@ -13,6 +13,7 @@ An application that allows users to track their budget by adding expenses and de
 ## Packages
 * Mongoose
 * Express.js
+* Morgan
 
 ## Application
 

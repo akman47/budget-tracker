@@ -137,6 +137,12 @@ function sendTransaction(isAdding) {
   .catch(err => {
     // fetch failed, so save in indexed db
     saveRecord(transaction);
+    if (isAdding) {
+      alert('Deposit has been saved');
+    }
+    else {
+      alert('Expense has been saved');
+    }
 
     // clear form
     nameEl.value = "";
