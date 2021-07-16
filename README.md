@@ -12,14 +12,18 @@ An application that allows users to track their budget by adding expenses and de
 
 ## Packages
 * Mongoose
+* Compression
 * Express.js
 * Morgan
 
 ## Application
+[Budget Tracker Application]()
 
 ## Screenshot
+![Screenshot of the Budget Tracker app](./budget-tracker.png)
 
 ## Usage
+Enter an amount and indicate if it's being deposited or expensed to the budget
 
 ## Credit
 Angela Man
