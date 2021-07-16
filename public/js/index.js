@@ -138,10 +138,10 @@ function sendTransaction(isAdding) {
     // fetch failed, so save in indexed db
     saveRecord(transaction);
     if (isAdding) {
-      alert('Deposit has been saved');
+      alert('Connection is offline. Deposit has been saved');
     }
     else {
-      alert('Expense has been saved');
+      alert('Connection is offline. Expense has been saved');
     }
 
     // clear form
