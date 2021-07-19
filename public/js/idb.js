@@ -52,7 +52,7 @@ function uploadTransactions() {
                 const budgetObjectStore = transaction.objectStore('new_transaction');
                 budgetObjectStore.clear();
 
-                alert('All saved transactions have been submitted!');
+                alert('Back online! All saved transactions have been submitted.');
             })
             .catch(err => {
                 console.log(err);

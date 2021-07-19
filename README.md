@@ -19,11 +19,11 @@ An application that allows users to track their budget by adding expenses and de
 ## Application
 [Budget Tracker Application](https://budget-tracker03.herokuapp.com/)
 
+## Usage
+Enter an amount and indicate if it's being deposited or expensed to track the budget. If there is low or no internet connection, the input will be saved on the tracker and be updated when connectivity resumes.
+
 ## Screenshot
 ![Screenshot of the Budget Tracker app](./budget-tracker.png)
-
-## Usage
-Enter an amount and indicate if it's being deposited or expensed to track the budget
 
 ## Credit
 Angela Man
